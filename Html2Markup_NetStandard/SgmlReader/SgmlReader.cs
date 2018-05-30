@@ -433,7 +433,8 @@ namespace Sgml
                     if (this.m_docType != null && StringUtilities.EqualsIgnoreCase(this.m_docType, "html"))
                     {
                         System.Reflection.Assembly a = typeof(SgmlReader).Assembly;
-                        string name = a.FullName.Split(',')[0] + ".Html.dtd";
+
+                        string name = a.FullName.Split(',')[0] + ".SgmlReader.Html.dtd";
                         System.IO.Stream stm = a.GetManifestResourceStream(name);
                         if (stm != null)
                         {

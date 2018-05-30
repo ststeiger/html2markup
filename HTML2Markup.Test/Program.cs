@@ -21,15 +21,14 @@
 //FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 //OTHER DEALINGS IN THE SOFTWARE.
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 using HTML2Markup;
 
+
 namespace HTML2Markup.Test
 {
+
+
     class Program
     {
         static void Main(string[] args)
@@ -68,7 +67,11 @@ namespace HTML2Markup.Test
                             + "<p>This is some <strong>sample text</strong>. You are using <a href=\"http://www.fckeditor.net/\">FCKeditor</a>. this is some text</p>"
                             + "<p>yeah omg whoa <span style=\"background-color: rgb(255, 0, 0);\">and </span>some <span style=\"color: rgb(153, 204, 0);\">color</span>!!</p>";
 
-            Console.Write(MarkupConverter.HTML2Textile(html));
+            System.Console.Write(MarkupConverter.HTML2Textile(html));
         }
+
+
     }
+
+
 }

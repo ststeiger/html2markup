@@ -1,21 +1,18 @@
-using System;
-using System.Reflection;
-using System.Runtime.CompilerServices;
 
 //
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 //
-[assembly: AssemblyTitle("SgmlReader")]
-[assembly: AssemblyDescription("Converts SGML to XML via XmlReader API")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Microsoft, MindTouch")]
-[assembly: AssemblyProduct("")]
-[assembly: AssemblyCopyright("Copyright © 2002, Microsoft Corporation; Copyright © 2007-2008, MindTouch")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]		
-[assembly: CLSCompliant(true)]
+[assembly: System.Reflection.AssemblyTitle("SgmlReader")]
+[assembly: System.Reflection.AssemblyDescription("Converts SGML to XML via XmlReader API")]
+[assembly: System.Reflection.AssemblyConfiguration("")]
+[assembly: System.Reflection.AssemblyCompany("Microsoft, MindTouch")]
+[assembly: System.Reflection.AssemblyProduct("")]
+[assembly: System.Reflection.AssemblyCopyright("Copyright © 2002, Microsoft Corporation; Copyright © 2007-2008, MindTouch")]
+[assembly: System.Reflection.AssemblyTrademark("")]
+[assembly: System.Reflection.AssemblyCulture("")]		
+[assembly: System.CLSCompliant(true)]
 
 //
 // Version information for an assembly consists of the following four values:
@@ -28,7 +25,7 @@ using System.Runtime.CompilerServices;
 // You can specify all the values or you can default the Revision and Build Numbers 
 // by using the '*' as shown below:
 
-[assembly: AssemblyVersion("1.8.2.*")]
+[assembly: System.Reflection.AssemblyVersion("1.8.2.*")]
 
 //
 // In order to sign your assembly you must specify a key to use. Refer to the 

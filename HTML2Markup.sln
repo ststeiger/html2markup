@@ -1,10 +1,20 @@
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTML2Markup", "HTML2Markup\HTML2Markup.csproj", "{5C1BB530-226E-4EEF-9BF7-7CDB14AC85A6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTML2Markup.Test", "HTML2Markup.Test\HTML2Markup.Test.csproj", "{42E421AA-479E-41AF-A0E6-2CE9ADF37FE9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SgmlReaderDll8", "SGMLReader\SgmlReaderDll8.csproj", "{499527FF-AE52-450F-B3E3-4AD53E1712AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Html2Markup_NetStandard", "Html2Markup_NetStandard\Html2Markup_NetStandard.csproj", "{1C0876BA-BBDF-449F-BF3D-DF4E435F64E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApplicationCore", "TestApplicationCore\TestApplicationCore.csproj", "{78660ACB-3795-4A2E-93C5-4E7B060C969F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApplication", "TestApplication\TestApplication.csproj", "{08A15F0D-48AD-426F-9293-6B194C7E9BD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DotNetFramework", "DotNetFramework", "{51604F9C-CE10-41DB-BCAB-264901782BAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,8 +34,29 @@ Global
 		{499527FF-AE52-450F-B3E3-4AD53E1712AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{499527FF-AE52-450F-B3E3-4AD53E1712AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{499527FF-AE52-450F-B3E3-4AD53E1712AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C0876BA-BBDF-449F-BF3D-DF4E435F64E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C0876BA-BBDF-449F-BF3D-DF4E435F64E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C0876BA-BBDF-449F-BF3D-DF4E435F64E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C0876BA-BBDF-449F-BF3D-DF4E435F64E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78660ACB-3795-4A2E-93C5-4E7B060C969F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78660ACB-3795-4A2E-93C5-4E7B060C969F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78660ACB-3795-4A2E-93C5-4E7B060C969F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78660ACB-3795-4A2E-93C5-4E7B060C969F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08A15F0D-48AD-426F-9293-6B194C7E9BD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08A15F0D-48AD-426F-9293-6B194C7E9BD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08A15F0D-48AD-426F-9293-6B194C7E9BD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08A15F0D-48AD-426F-9293-6B194C7E9BD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5C1BB530-226E-4EEF-9BF7-7CDB14AC85A6} = {51604F9C-CE10-41DB-BCAB-264901782BAF}
+		{42E421AA-479E-41AF-A0E6-2CE9ADF37FE9} = {51604F9C-CE10-41DB-BCAB-264901782BAF}
+		{499527FF-AE52-450F-B3E3-4AD53E1712AD} = {51604F9C-CE10-41DB-BCAB-264901782BAF}
+		{08A15F0D-48AD-426F-9293-6B194C7E9BD2} = {51604F9C-CE10-41DB-BCAB-264901782BAF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A9F388B-B63A-4E30-8184-9AAFF2B11957}
 	EndGlobalSection
 EndGlobal
